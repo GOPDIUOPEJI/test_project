@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="mainCtrl">
+<head>
+	<title>{{ Page.title() }}</title>
+	<meta charset="utf-8">
+	<base href="/">
+	<link rel="stylesheet" type="text/css" href="dist/style.css"/>
+</head>
+<header>
+	<div class="row">
+		<div class="header_sidebar columns medium-12 large-8">
+			<ul class="header_list">
+				<li>
+					<a href="/">Home</a>
+				</li>
+				<li>
+					<a href="/blog">Blog</a>
+				</li>
+				<li>
+					<a href="/info">About us</a>
+				</li>
+				<li>
+					<a href="/contacts">Contact us</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+</header>
+<body >
+	<div id="main">
+		<ng-view></ng-view>
+		<pop-up-dialog></pop-up-dialog>
+	</div>
+</body>
+<footer>
+	<script src="dist/js/footer.js"></script>
+</footer>
+</html>
