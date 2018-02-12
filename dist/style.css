@@ -5072,7 +5072,7 @@ button {
       transition: 0.2s ease-out 0.1s; }
     .header_list li a {
       color: #fff; }
-  @media screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
     .header_list {
       font-size: 1.5rem;
       text-align: center;
