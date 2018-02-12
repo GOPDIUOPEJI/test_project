@@ -5044,7 +5044,6 @@ body {
 header {
   width: 100%;
   max-width: 1396px;
-  max-height: 80px;
   margin: 0 auto; }
 
 ul {
@@ -5075,7 +5074,11 @@ button {
       color: #fff; }
   @media screen and (max-width: 550px) {
     .header_list {
-      font-size: 1rem; } }
+      font-size: 1.5rem; }
+    .header_list ul {
+      text-align: center;
+      display: block;
+      } }
 
 #main .show_message_title {
   margin: 0 auto;
