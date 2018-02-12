@@ -1,6 +1,1 @@
-DirectorySlash Off
 
-RewriteEngine On
-
-RewriteCond %{REQUEST_URI} !/index.html
-RewriteRule (.*) /index.html?route=$1 [L,QSA]
