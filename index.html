@@ -11,7 +11,8 @@
 		<div class="header_sidebar columns medium-12 large-8">
 			<ul class="header_list">
 				<li>
-					<a href="#/" ng-class="getClass('/')">Home</a>
+					<a href="#/" [routerLinkActiveOptions]="{exact:
+true}" ng-class="getClass('/')">Home</a>
 				</li>
 				<li>
 					<a href="#/blog" ng-class="getClass('/blog')">Blog</a>
